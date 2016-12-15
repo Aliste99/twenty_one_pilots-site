@@ -1,0 +1,278 @@
+html {
+	display: block;
+}
+
+body {
+    font-family: "Istok Web",sans-serif;
+}
+
+
+body {
+	font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #999999;
+    /* background-color: #f3f3f3; */
+    margin: 0;
+    
+    line-height: 1.7;
+}
+
+p {
+	margin: 0 0 1.3em;
+	display: block;
+}
+
+hr {
+	height: 0;
+	margin: 1.313cm 0;
+	border: 0;
+	border-top: 1px solid #f2f2f2;
+}
+
+div {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    border: 0;
+    
+}
+
+span {
+	color: #333333;
+}
+
+h5, h6 {
+	text-align: left;
+}
+
+h5 {
+	letter-spacing: 0em;
+	font-size: 150%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #eaeaea;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Istok Web",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h4, h5, h6 {
+    margin-top: 1.75em;
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.25em 0 0.2em;
+}
+
+h6 {
+    letter-spacing: 0.05em;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color:#E4E4E4;
+	font-size: 20px; 
+	font-weight: 100;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.main {
+    position: relative;
+}
+
+
+.main.full {
+    float: none;
+    display: block;
+    width: auto;
+}
+
+.icon {
+	display: inline-block;
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    text-rendering: auto;
+    
+    line-height: 1;
+}
+
+.gap {
+	margin: 18px 0 0 0;
+	border-color: transparent;
+}
+
+.container.max {
+    max-width: 1000px;
+}
+
+.container.width {
+    width: 88%;
+}
+
+.section .container {
+    position: relative;
+}
+
+.aligncenter {
+    display: block;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.alignnone {
+	display: block;
+
+    float: none;
+    margin: 0 0 1.313em 0;
+    text-align: center;
+}
+
+.text {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.column {
+	padding: 0px;
+	float: left;
+	margin-right: 4%;	
+	position: relative;
+    box-sizing: border-box;
+}
+
+.column.x-1-3 {
+    width: 30.66666%;
+}
+
+.column.x-2-3 {
+	padding: 0px;
+	width: 65.33332%;
+}
+
+.column.x-1-2 {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.06);
+	width: 48%
+}
+
+.column.x-1-1 {
+    width: 100%;
+}
+
+.column.sm {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+}
+
+.section.bg-image, .section.bg-pattern {
+    background-position: 50% 50%;
+}
+
+#section-1 {
+	margin: 0px;
+	padding: 5px 0px 5px;
+	background-image: url(img/bg.jpg);
+	background-color: transparent; /*Прозрачность*/
+    background-position: 50% 0px;
+}
+
+#section-2 {
+    margin: 0px;
+    padding: 75px 0px;
+    background-image: url(img/top.jpg);
+    background-color: transparent;
+    background-position: 50% 0px;
+    background-attachment: fixed;
+}
+
+#section-3 {
+	margin: 0px;
+	padding: 75px 0px;
+	background-image: url(img/bg.jpg);
+	background-color: transparent;
+}
+#section-4 {
+	margin: 0px;
+    padding: 40px 0px 80px;
+    background-image: url(img/bg.jpg);
+    background-color: rgb(21, 21, 21);
+    background-position: 50% 53px;
+}
+
+#section-5 {
+
+    margin: 0px;
+    padding: 75px 0px;
+    background-image: url(img/bg.jpg);
+    background-color: transparent;
+}
+
+#section-6 {
+	margin: 0px;
+    padding: 20px 0px 0px;
+    background-image: url(img/bg.jpg);
+    background-color: transparent;
+
+}
+
+.section .container.marginless-columns {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.column.x-1-3 h5 {
+	text-align: right;
+}
+
+.img {
+    margin-bottom: 1.313em;
+}
+
+.section.bg-pattern {
+	background-repeat: repeat;
+}
+
+.section.bg-image.parallax, .section.bg-pattern.parallax {
+    background-attachment: fixed;
+}
+
+.section.bg-image, .section.bg-pattern {
+	background-position: 50% 50%;
+}
+
+.section{
+	margin: 0 0 1.313cm;
+	padding: 45px 0;
+}
+
+.section.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
