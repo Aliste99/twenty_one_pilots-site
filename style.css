@@ -19,7 +19,7 @@ body {
 }
 
 p {
-	margin: 0 0 1.3em;
+	margin: 0 0 3;
 	display: block;
 }
 
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4, h5, h6 {
-    margin-top: 1.75em;
+    margin-top: 10px;
     margin-bottom: 0.5em;
     line-height: 1.4;
 }
@@ -200,6 +200,10 @@ a {
 	background-image: url(img/bg.jpg);
 	background-color: transparent; /*Прозрачность*/
     background-position: 50% 0px;
+    position: fixed;
+    
+    z-index: 101;
+
 }
 
 #section-2 {
@@ -275,4 +279,6 @@ a {
 .section.bg-image {
     background-size: cover;
     background-repeat: no-repeat;
+
+   
 }
