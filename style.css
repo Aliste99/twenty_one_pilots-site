@@ -90,16 +90,16 @@ h6 {
 }
 
 a:link{
-	color:#EAEAEA;
-	font-size: 15px; 
-	font-weight: 1000;
+	color:#000000;
+	font-size: 17px; 
+	font-weight: bold;
 	text-decoration: none;
 }
 
 a:visited{
-    color:#EAEAEA;
-    font-size: 15px; 
-    font-weight: 1000;
+    color:#000000;
+    font-size: 17px; 
+    font-weight: bold;
     text-decoration: none;
 }
 
