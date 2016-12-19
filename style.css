@@ -77,17 +77,30 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.25em 0 0.2em;
 }
 
+li{
+    margin: 5px;
+    font-weight: 1000;
+    color: #F04937;
+}
+
 h6 {
     letter-spacing: 0.05em;
     font-size: 100%;
     text-transform: uppercase;
 }
 
-a:link, a:visited, a:hover, a:active {
-	color:#E4E4E4;
-	font-size: 20px; 
-	font-weight: 100;
+a:link{
+	color:#EAEAEA;
+	font-size: 15px; 
+	font-weight: 1000;
 	text-decoration: none;
+}
+
+a:visited{
+    color:#EAEAEA;
+    font-size: 15px; 
+    font-weight: 1000;
+    text-decoration: none;
 }
 
 a {
@@ -194,6 +207,8 @@ a {
     width: 100%;
     margin-right: 0;
 }
+
+
 
 .section.bg-image, .section.bg-pattern {
     background-position: 50% 50%;
